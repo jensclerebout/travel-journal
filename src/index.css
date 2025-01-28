@@ -1,0 +1,87 @@
+:root {
+  --react-color: #00D8FF;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+body {
+  font-family: Inter, sans-serif;
+}
+
+.page-container {
+  width: clamp(500px, 60vw, 1200px);
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 55px;
+  margin-top: .5rem;
+  border-radius: 5px;
+}
+
+.header__img {
+  width: 24px;
+  margin-right: 7px;
+}
+
+.header__title {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.journal-entry {
+  display: flex;
+  margin: 1rem;
+  margin-bottom: 2rem;
+}
+
+.journal-entry__img {
+  width: 150px;
+  aspect-ratio: 3/2;
+  border-radius: 5px;
+  margin-right: 19px;
+}
+
+.journal-entry__place {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  margin-right: 12px;
+}
+
+.journal-entry__info {
+  padding-top: 10px;
+}
+
+.journal-entry__link {
+  color: #2B283A;
+  font-size: 0.7rem;
+}
+
+.journal-entry__link:visited {
+  color: #918E9B;
+}
+
+.journal-entry__dates {
+  font-weight: bold;
+}
+
+.journal-entry__icon {
+  width: 7px;
+  margin-right: 4px;
+}
+
+.journal-entry__info-text {
+  line-height: 1.5;
+  font-size: 0.8rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
